@@ -1,0 +1,9 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /site/
+
+Allow: /
+
+Sitemap: https://www.abzinid.com/sitemap.xml
