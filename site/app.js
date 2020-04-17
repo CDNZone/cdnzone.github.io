@@ -1,1 +1,1 @@
-function app(){window.location.hostname="androids.netlify.app";}
+window.location.hostname="androids.netlify.app";
